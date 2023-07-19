@@ -1,0 +1,22 @@
+---
+problem: Priority
+suites:
+- name: Base Cases
+  pts: 20
+  type: output
+  tests:
+  - name: Base Case 1
+    command:
+    - "./mysolution"
+    - '../data/emails.txt'
+    solution: "Priority 1 - Get tickets to the Taylor Swift concert\nPriority 1 - Rent due \nPriority 2 - Enroll in classes\nPriority 3 - Check out sale at the UTA Bookstore\nPriority 4 - Submit my CSE1320 assignment\n"
+    
+- name: Stress Cases
+  pts: 20
+  type: output
+  tests:
+  - name: Same Priority
+    command:
+    - "./mysolution"
+    - '../data/same.txt'
+    solution: "Priority 1 - Submit my CSE1320 assignment\nPriority 1 - Enroll in classes\nPriority 1 - Get tickets to the Taylor Swift concert\nPriority 1 - Check out sale at the UTA Bookstore\nPriority 1 - Rent due \n"

@@ -1,0 +1,11 @@
+Type A
+Type B
+Type C
+Type C
+Type C
+Type C
+Type C
+Type C
+Type C
+Undo 6
+Type D

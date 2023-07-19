@@ -1,0 +1,9 @@
+Type Hello
+Type , 
+Type World
+Undo 1
+Type CSE1320
+Type !
+Type .
+Undo 2
+Redo 1

@@ -1,0 +1,12 @@
+Type A
+Type B
+Type C
+Type D
+Type C
+Type C
+Type C
+Type C
+Type C
+Undo 7
+Redo 2
+

@@ -1,0 +1,44 @@
+---
+problem: Undo/Redo
+suites:
+- name: Base Cases
+  pts: 10
+  type: output
+  tests:
+  - name: Base Case 1
+    command:
+    - "./mysolution"
+    - '../data/test.txt'
+    solution: "Hello, CSE1320!\n"
+
+- name: Undo Cases
+  pts: 15
+  type: output
+  tests:
+  - name: Base Case 1
+    command:
+    - "./mysolution"
+    - '../data/abcd.txt'
+    solution: "ABCD\n"
+
+- name: Redo Cases
+  pts: 15
+  type: output
+  tests:
+  - name: Base Case 1
+    command:
+    - "./mysolution"
+    - '../data/abcd.txt'
+    solution: "ABCD\n"
+  
+
+- name: Stress Test Cases
+  pts: 10
+  type: returncode
+  tests:
+  - name: Underflow
+    command:
+    - "./mysolution"
+    - '../data/under.txt'
+    solution: 1 # Assertion returncode
+  
